@@ -1,38 +1,122 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Dron Puebla - Fotografía y Video Aéreo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
 
-# Precompiled Headers
-*.gch
-*.pch
+<header>
+    <h1>Tu Dron Puebla</h1>
+    <p>Fotografía y Video con Dron para Negocios en Puebla</p>
+    <a class="cta-button" href="#contacto">Solicita tu cotización gratuita</a>
+</header>
 
-# Linker files
-*.ilk
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#portafolio">Portafolio</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#paquetes">Paquetes</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
-# Debugger Files
-*.pdb
+<section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+        <li><strong>Fotografía aérea profesional:</strong> Ideal para destacar ubicaciones.</li>
+        <li><strong>Video publicitario con dron:</strong> Contenido para redes y páginas web.</li>
+        <li><strong>Producción mensual:</strong> Clips constantes para Instagram, TikTok, etc.</li>
+        <li><strong>Extras:</strong> Edición, subtítulos, integración con NFC.</li>
+    </ul>
+</section>
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+<section id="portafolio" class="portfolio">
+    <h2>Portafolio</h2>
+    <p>Galería de fotos y videos realizados.</p>
+    <p><a class="cta-button" href="https://instagram.com/tudronpuebla" target="_blank">Ver más en Instagram</a></p>
+</section>
 
-# Fortran module files
-*.mod
-*.smod
+<section id="testimonios">
+    <h2>Testimonios</h2>
+    <blockquote>
+        "Gracias a sus videos, nuestras redes sociales crecieron el doble. ¡Todo el mundo nos pregunta quién lo hizo!"<br>— Café La Nube
+    </blockquote>
+    <blockquote>
+        "Un servicio profesional y puntual. Las tomas con dron le dieron a mi hotel una vista increíble en Booking."<br>— Hotel Vista Verde
+    </blockquote>
+</section>
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+<section id="paquetes">
+    <h2>Paquetes y Precios</h2>
+    <ul>
+        <li><strong>Plan Básico:</strong> $1,500 MXN — 1 sesión de fotos + 1 video corto</li>
+        <li><strong>Plan Mensual:</strong> $5,200 MXN — 4 sesiones (1 por semana)</li>
+        <li><strong>Plan Full Marketing:</strong> $8,900 MXN — Video largo + reels + paquete mensual</li>
+    </ul>
+    <p><a class="cta-button" href="#">Descargar PDF con precios</a></p>
+</section>
 
-# Executables
+<section id="contacto">
+    <h2>Contáctanos</h2>
+    <p><strong>WhatsApp:</strong> 55 1234 5678</p>
+    <p><strong>Email:</strong> contacto@tudronpuebla.com</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/tudronpuebla" target="_blank">@tudronpuebla</a></p>
+    <p><strong>Facebook:</strong> <a href="https://facebook.com/tudronpuebla" target="_blank">facebook.com/tudronpuebla</a></p>
+    <p><strong>Ubicación:</strong> <a href="https://www.google.com/maps/place/Los+H%C3%A9roes,+Puebla,+Pue." target="_blank">Los Héroes, Puebla</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Tu Dron Puebla | Puebla, México</p>
+    <p>Política de privacidad | Términos y condiciones</p>
+</footer>
+
+</body>
+</html>
+
 *.exe
 *.out
 *.app
